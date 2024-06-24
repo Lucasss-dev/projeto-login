@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(14deg, #400E20 35%, #8b1f45);
+    }
+
+    section#telalogin {
+        width: 80%;
+    }
+
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 922px) {
+
+    body {
+        background-image: linear-gradient(14deg, #400E20 35%, #8b1f45);
+    }
+
+    section#telalogin {
+        width: 850px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
