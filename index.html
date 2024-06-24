@@ -28,14 +28,18 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div id="campo">
                         <i class="material-icons">person</i>
-                        <input type="email" name="login" id="login" placeholder="Seu e-mail" required maxlength="40">
+                        <input type="email" name="login" id="login" placeholder="Seu e-mail" required maxlength="40" autocomplete="email">
                         <label for="login">Login </label>
                     </div>
                     <div id="campo">
                         <i class="material-icons">lock</i>
-                        <input type="password" name="senha" id="senha" required minlength="8" maxlength="20" autocomplete="off" placeholder="Sua senha">
+                        <input type="password" name="senha" id="senha" required minlength="8" maxlength="20" autocomplete="current-password" placeholder="Sua senha">
                         <label for="senha">Senha </label>
                     </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueciasenha.html">
+                        Esqueci a minha Senha <i class="material-icons">key</i>
+                    </a>
                 </form>
             </div>
         </section>
