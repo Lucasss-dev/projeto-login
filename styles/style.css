@@ -52,6 +52,7 @@ section#telalogin {
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.507);
     border-radius: 20px;
+    overflow: hidden;
 
     transition: width 0.7s, height 0.7s;
     transition-timing-function: ease;
@@ -64,14 +65,32 @@ div#imagem {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px 0px 0 0;
 }
 
 div#formulario {
     display: block;
     padding: 15px;
+    color: white);
+    padding-top: 15px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 5px;
+    color: var(--cor003);
+}
+
+p#bemvindo {
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 div#formulario > p {
     padding-top: 10px;
-
+    font-size: 0.9em;
+    text-indent: 5px;
+    text-align: center;
 }
+
+
