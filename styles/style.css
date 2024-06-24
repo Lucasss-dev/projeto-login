@@ -54,7 +54,7 @@ section#telalogin {
     border-radius: 20px;
     overflow: hidden;
 
-    transition: width 0.7s, height 0.7s;
+    transition: width 0.7s, height 0.7s, float 0.7s;
     transition-timing-function: ease;
 }
 
@@ -71,7 +71,7 @@ div#imagem {
 div#formulario {
     display: block;
     padding: 15px;
-    color: white);
+    color: white;
     padding-top: 15px;
 }
 
