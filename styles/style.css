@@ -107,9 +107,36 @@ div.campo > label {
     display: none;
 }
 
-div.campo > i {
-    font-size: 0.95em;
 
+
+div.campo > i {
+    font-size: 2em;
+    width: 40px;
+    padding: 9px;
+}
+
+div.campo > input {
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 0.8em;
+    height: 95%;
+    width: calc(100% - 44px);
+    transform: translateY(-12px);
+    padding-left: 10px;
+    color: white;
+}
+
+div.campo > input:focus-within {
+    background-color: transparent;
+    color: white;
+}
+
+div.campo > input:hover {
+    color: white;
+    background-color: #270913;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
 }
 
 form > input[type=submit] {

@@ -7,6 +7,7 @@
 
     section#telalogin {
         width: 80%;
+        height: 450px;
     }
 
     div#imagem {
@@ -25,7 +26,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 }
 
@@ -37,6 +38,7 @@
 
     section#telalogin {
         width: 850px;
+        height: 500px;
     }
 
     div#imagem {
